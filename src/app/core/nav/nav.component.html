@@ -1,0 +1,13 @@
+<nav class="navbar">
+  <!-- Logo -->
+  <div class="nav-left">
+    <img src="assets/logo.png" alt="Logo">
+  </div>
+
+  <!-- Perfil del usuario -->
+  <div class="nav-right">
+    <span>{{ userName }}</span>
+    <img [src]="userImage" alt="Imagen de perfil">
+  </div>
+  <button (click)="toggleSidenav()">Menú</button>
+</nav>

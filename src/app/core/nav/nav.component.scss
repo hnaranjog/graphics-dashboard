@@ -1,0 +1,27 @@
+.navbar {
+  background-color: #666161; // Fondo gris claro
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  .nav-left img {
+    height: 40px;
+  }
+
+  .nav-right {
+    display: flex;
+    align-items: center;
+
+    span {
+      margin-right: 10px;
+      color: #b1b2eb; // Texto gris
+    }
+
+    img {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+    }
+  }
+}
